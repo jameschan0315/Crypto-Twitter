@@ -19,7 +19,7 @@ def get_tweet(screen_name_list):
     tweet_dict = {}
     tweets_list = []
     tweet_ids = []
-    number_of_recent_post = 2
+    number_of_recent_post = 140
 
     for screen_name in screen_name_list:
         print(screen_name)
